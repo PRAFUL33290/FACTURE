@@ -1,0 +1,22 @@
+{
+  "name": "parvati-india-invoices",
+  "version": "1.0.0",
+  "description": "PARVATI INDIA - Invoice Management SaaS System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node --test tests/"
+  },
+  "keywords": ["invoice", "saas", "parvati", "india", "billing"],
+  "author": "PARVATI INDIA",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^2.2.1",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "pdfkit": "^0.17.2",
+    "sqlite3": "^5.1.7",
+    "uuid": "^13.0.0"
+  }
+}
